@@ -1,2 +1,3 @@
 # Checkers
-Checkers game in javascript
+Checkers game in vanilla javascript and HTML5/CSS3
+
