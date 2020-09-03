@@ -1,0 +1,65 @@
+/* De normale TD classe maken we zwart voor de zwarte blokjes. */
+td {
+    background-color: #592500;
+    width:  75px;
+    height: 75px;
+    text-align: center;
+}
+
+/* De achtergrond voor ongebruikte vakjes */
+.Whitespot{
+    background-color: #e5b585;
+    width:  75px;
+    height: 75px;
+    text-align: center;
+}
+
+/* De zwarte en witte pieces die in het bord komen */
+.black-piece{
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    margin: 15px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 40px;
+    display: inline-block;
+}
+
+.white-piece{
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+    margin: 15px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+/* Als de steenken king worden, moeten ze aangepast worden naar een andere opmaak */
+.king.black-piece{
+    background-color: black;
+    background-image: url("crownwh.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.king.white-piece{
+    background-color: white;
+    background-image: url("crownbl.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+h3{
+    font-family: Verdana, sans-serif;
+    padding-left: 250px;
+}
+
+
+h1{
+    font-family: Verdana, sans-serif;
+    padding-left: 250px;
+}
